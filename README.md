@@ -1,6 +1,12 @@
+
+Desktop:
+https://user-images.githubusercontent.com/74673812/126905200-f51bdc49-f715-4f6a-81a9-ab136e03b25e.mp4
+
+mobile:
+https://user-images.githubusercontent.com/74673812/126905315-9f7c7435-1406-4e13-8901-a02c55d89094.mp4
+
+
 # Frontend Mentor - Fylo dark theme landing page
-
-
 
 ## Welcome! 👋
 
