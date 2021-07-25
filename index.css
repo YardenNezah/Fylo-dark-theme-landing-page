@@ -1,0 +1,363 @@
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    padding: 4% 2%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.mainImg {
+    position: relative;
+    top: 20%;
+}
+
+.fyloDetails {
+    font-size: 20px;
+    width: 600px;
+    padding-left: 25%;
+}
+
+.getStarted {
+    background-image: linear-gradient(to right, rgb(90, 188, 224), rgb(37, 150, 190));
+    font-size: 17px;
+    color: white;
+    padding: 15px 70px;
+    border: 1px solid rgb(37, 150, 190);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 40% 32%;
+    padding-left: 15%;
+    margin-top: 10%;
+}
+
+.gridItem {
+    width: 350px;
+    padding: 15%;
+    z-index: -1;
+}
+
+.storeImg {
+    margin-top: 20px;
+}
+
+.articleContainer {
+    display: flex;
+}
+
+.articleText {
+    text-align: left;
+    width: 500px;
+    padding: 60px 0 0 40px;
+}
+
+.howFyloWorks {
+    color:#63ded7;
+    text-decoration: underline;
+}
+
+.quotesConatainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 15% 3%;
+}
+
+.quotesItem {
+    width: 320px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 15px;
+}
+
+.quotesImg {
+    height: 50px;
+    width: 55px;
+    margin-top: 150px;
+    float: left;
+    z-index: -1;
+}
+
+.profileImg {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.profileDetails {
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.profile {
+    display: flex;
+    padding-top: 20px;
+}
+
+.popupMessage {
+    background-color: hsl(219, 30%, 18%);
+    width: 55%;
+    position:absolute;
+    padding: 2% 4%;
+    margin-left: 19%;
+    bottom:-2300px;
+}
+
+.inputEmail {
+    width: 350px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding-right: 15px;
+}
+
+.footer {
+    z-index: -1;
+    background-color: hsl(216, 53%, 9%);
+    bottom: 0;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 20% 10% 5% 10%;
+}
+
+.fyloItem {
+    width: 35%;
+}
+
+.fyloText {
+    padding-left: 30px;
+}
+
+.categoriesItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.appsItem {
+    display: flex;
+    width: 80px;
+}
+
+.bi {
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+
+@media screen and (max-width:1060px) {
+    .fyloDetails {
+        padding-left: 15%;
+    }
+    .gridContainer {
+        grid-template-columns: 70% 58%;
+        padding: 0 35% 0 5%;
+        margin-top: 10%;
+    }
+    .gridItem {
+        width: 350px;
+        height: 200px;
+        padding: 5%;
+    }
+    .articleContainer {
+        flex-direction: column;
+    }
+    .articleText {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:860px) {
+    nav {
+        margin-top: 10px;
+    }
+    .logo {
+        width: 160px;
+        height: 50px;
+    }
+    .mainImg {
+        width: 545px;
+        height: 405px;
+    }
+    .fyloDetails {
+        padding-left: 15%;
+    }
+    .gridContainer {
+        grid-template-columns: 80% 65%;
+        padding: 0 35% 0 5%;
+    }
+    .gridItem {
+        width: 250px;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width:720px) {
+    .fyloDetails {
+        padding-left: 5%;
+    }
+    .articleImg {
+        width: 457px;
+        height: 372px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .logo {
+        width: 119px;
+        height: 37px;
+    }
+    .mainImg {
+        width: 320px;
+        height: 238px;
+    }
+    h1 {
+        font-size: 25px;
+        width: 400px;
+        left: 100px;
+        text-align: center;
+    }
+    .fyloDetails {
+        width: 400px;
+        font-size:12px;
+        padding-left: 1%;
+    }
+    .articleText {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .gridContainer {
+        grid-template-columns: 90% 10%;
+        padding: 0 30% 0 1%;
+    }
+    .gridItem {
+        width: 150px;
+        height: 350px;
+        font-size: 12px;
+    }
+    .articleImg {
+        width: 357px;
+        height: 272px;
+    }
+}
+
+@media screen and (max-width:465px) {
+    .fyloDetails {
+        width: 350px;
+    }
+    .gridItem {
+        width: 100px;
+        height: 300px;
+        font-size: 11px;
+    }
+    .articleText {
+        width: 300px;
+    }
+    .articleImg {
+        width: 340px;
+        height: 260px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    h1 {
+        font-size: 20px;
+        width: 300px;
+        left: 100px;
+    }
+    .fyloDetails {
+        width: 300px;
+    }
+    a {
+        padding: 5px;
+    }
+    .gridContainer {
+        grid-template-columns: 90%;
+        padding: 0 30% 0 1%;
+    }
+    .gridItem {
+        width: 300px;
+        height: 350px;
+        font-size: 14px;
+    }
+    .articleImg {
+        width: 300px;
+        height: 210px;
+    }
+    .getStarted {
+        margin-right: 10px;
+        padding: 5px 40px;
+        margin-top: 10px;
+    }
+    .quotesConatainer {
+        flex-direction: column;
+        padding: 25% 1%;
+    }
+    .quotesImg {
+        margin-top: 42px;
+    }
+    .quotesItem {
+        padding: 20px;
+        width: 200px;
+    }
+    .popupMessage {
+        bottom:-3000px;
+        width: 85%;
+        height: 45%;
+        padding: 1px 2px 1px 2px;
+        margin-left: 2%;
+    }
+    .inputEmail {
+        width: 250px;
+        height: 35px;
+    }
+    .footerContainer {
+        flex-direction: column;
+        padding: 90% 0 3% 0;
+    }
+    .fyloItem {
+        width: 85%;
+    }
+    .appsItem {
+        margin-left: 110px;
+    }
+}
